@@ -117,7 +117,7 @@ var GCROAuth2Endpoint = google.Endpoint
 
 // GCRScopes is/are the OAuth2 scope(s) to request during access_token creation.
 var GCRScopes = []string{
-	"https://www.googleapis.com/auth/devstorage.read_write",
+	"https://www.googleapis.com/auth/devstorage.read_only",
 	"https://www.googleapis.com/auth/cloud-platform",
 }
 
